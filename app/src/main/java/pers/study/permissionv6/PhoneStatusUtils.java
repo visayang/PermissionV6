@@ -7,6 +7,7 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
+import android.widget.Toast;
 
 import java.lang.reflect.Method;
 import java.util.UUID;
@@ -25,10 +26,9 @@ public class PhoneStatusUtils {
             if (readPhoneStateListener != null) {
                 readPhoneStateListener.OnReadPhoneStateListener();
             }
-
             return "";
         }else {
-
+            Toast.makeText(context, "已经获取了 设备权限", Toast.LENGTH_SHORT).show();
             /**
              * 获取手机序列号
              *

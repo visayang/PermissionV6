@@ -10,6 +10,9 @@ public class SharePerfenceUtils {
     public static final String KEY_STORAGE_NOTIP= "key_storage_notip";
     public static final String KEY_STORAGE_NOTIP_SHOWED= "key_storage_notip_showed";
 
+    public static final String KEY_PHONE_NOTIP= "key_phone_notip";
+    public static final String KEY_PHONE_NOTIP_SHOWED= "key_phone_notip_showed";
+
     /**
      * 存储
      *
