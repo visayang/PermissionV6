@@ -35,4 +35,4 @@ var ihubo = {
 }
 ```
 ##相关截图
-![授权界面](./image/pic_1.png)
+![授权界面](http://m.qpic.cn/psc?/V51er1Dk0zJPMo3RFWao0HicjG12R0GO/bqQfVz5yrrGYSXMvKr.cqRiGaFaPsvp9PzIEcvRATT24qLBA6Q*UMPELcLcp437dHbH1hWH7Rb6GPvhvl8vPz8U.RRsFJpbusLbcIkame7M!/b&bo=MwJWBAAAAAADB0E!&rf=viewer_4)
