@@ -53,7 +53,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         // 遍历传递过来的权限集合
         for (String permission : permissions) {
             // 判断是否已经授权
-            if (ContextCompat.checkSelfPermission(this, permission) != PackageManager.PERMISSION_GRANTED) {
+            if (isHasPermission(permission)) {
                 // 未授权，则加入待授权的权限集合中
                 permissionList.add(permission);
             }

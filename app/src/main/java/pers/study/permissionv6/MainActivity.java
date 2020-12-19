@@ -56,9 +56,7 @@ public class MainActivity extends BaseActivity implements PhoneStatusUtils.IRead
 
     //存储权限
     public void accessPermissionStoarg() {
-        if (ContextCompat.checkSelfPermission(this,
-                Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                != PackageManager.PERMISSION_GRANTED) {
+        if (isHasPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                 if (shouldShowRequestPermissionRationale(Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
@@ -100,9 +98,7 @@ public class MainActivity extends BaseActivity implements PhoneStatusUtils.IRead
 
     //设备权限
     public void accessPermissionPhone() {
-        if (ContextCompat.checkSelfPermission(this,
-                Manifest.permission.READ_PHONE_STATE)
-                != PackageManager.PERMISSION_GRANTED) {
+        if (isHasPermission(Manifest.permission.READ_PHONE_STATE)) {
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                 if (shouldShowRequestPermissionRationale(Manifest.permission.READ_PHONE_STATE)) {
